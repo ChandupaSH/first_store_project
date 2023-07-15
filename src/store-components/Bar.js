@@ -21,7 +21,7 @@ export const Bar = () => {
           alignItems : 'center',
           justifyContent : 'space-between'
         }}>
-          <span style={{color : 'white' , marginLeft : '20px' , fontSize : '30px'}}>STORE</span>
+          <span style={{color : 'white' , marginLeft : '20px' , fontSize : '30px'}}>STORE!</span>
           <Badge badgeContent={totalItem} color='error' sx={{mr : '20px' }}>
             <ShoppingCartIcon sx={{color : 'white'}} />
           </Badge>
