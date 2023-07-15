@@ -36,15 +36,15 @@ export const Item = (props) => {
         fontWeight : 'bold',
         borderRadius : '5px',
         transition : '0.5s',
-        width : {xl : '350px' , lg : '300px' ,md : '290px'},
-        height : {xl : '410px' , lg : '320px' ,md : '310px'},
+        width : {xl : '350px' , lg : '300px' ,md : '290px' , sm : '220px' },
+        height : {xl : '450px' , lg : '360px' ,md : '360px' , sm : '340px'},
         ":hover": {boxShadow: 3,
                    transform : 'Scale(1.01)',
                   backgroundColor : 'rgb(245, 245, 245)'}
 
         
       }}>
-        <img src={props.elem.image} style={{height : '50%' , width : '100%', }}></img><br></br>
+        <img src={props.elem.image} style={{height : '56%' , width : '100%', }}></img><br></br>
         <span>ID : {props.elem.id}</span><br/>
         <span>Brand : {props.elem.brand}</span><br/>
         <span>CPU : {props.elem.cpu}</span><br/>
