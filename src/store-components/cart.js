@@ -47,8 +47,8 @@ export const CartCom = (props) => {
                            backgroundColor : 'rgb(93, 93, 93)',
                            color : 'white'}}>{props.elem.count}</Typography>
           <Typography sx={{height : '20px',marginTop : '1px',}}>{props.elem.brand}..</Typography>
-          <Typography sx={{height : '20px',marginTop : '1px',}}>{props.elem.cpu}....</Typography>
-          <Typography sx={{height : '20px',marginTop : '1px',}}>RS.{props.elem.price}.00</Typography>
+          <Typography sx={{height : '20px',marginTop : '1px', display: {sm : 'none',md :'block'}}}>{props.elem.cpu}....</Typography>
+          <Typography sx={{height : '20px',marginTop : '1px',}}>RS.{props.elem.price}</Typography>
           
           
           
