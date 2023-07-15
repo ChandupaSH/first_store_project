@@ -26,28 +26,7 @@ const initialState1 = [
         ram : 16,
         price : 700000 ,
         image : 'https://idealz.lk/wp-content/uploads/2021/01/Mac-Book-Air-M1-2.jpg'
-    },
-    // {
-    //     id : 4,
-    //     brand : 'HP',
-    //     cpu : 'i9',
-    //     ram : 32,
-    //     price : 200000 
-    // },
-    // {
-    //     id : 5,
-    //     brand : 'HP',
-    //     cpu : 'i9',
-    //     ram : 32,
-    //     price : 200000 
-    // },
-    // {
-    //     id : 6,
-    //     brand : 'HP',
-    //     cpu : 'i9',
-    //     ram : 32,
-    //     price : 200000 
-    // }
+    }
 ]
 
 const lapSlice = createSlice({
