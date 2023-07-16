@@ -4,11 +4,11 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState1 = [
     {
         id : 1,
-        brand : 'azuz',
+        brand : 'acer',
         cpu : 'i3 9gen',
         ram : 16,
         price : 300000,
-        image : 'https://m.media-amazon.com/images/I/71ehzrGUO7L.jpg'
+        image : 'https://www.91-cdn.com/hub/wp-content/uploads/2023/05/Acer-Aspire-5-1200x900.jpg'
         
     },
     {
@@ -21,11 +21,11 @@ const initialState1 = [
     },
     {
         id : 3,
-        brand : 'Apple',
+        brand : 'Apple MacBook Air',
         cpu : 'i3 9gen',
         ram : 16,
         price : 700000 ,
-        image : 'https://idealz.lk/wp-content/uploads/2021/01/Mac-Book-Air-M1-2.jpg'
+        image : 'https://www.macthai.com/wp-content/uploads/2018/10/MacBook-Air-gold-10302018.jpg'
     }
 ]
 

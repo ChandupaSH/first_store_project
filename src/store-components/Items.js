@@ -47,7 +47,7 @@ export const Item = (props) => {
       }}>
         <img src={props.elem.image} style={{height : '56%' , width : '100%', }}></img><br></br>
         <span>ID : {props.elem.id}</span><br/>
-        <span>Brand : {props.elem.brand}</span><br/>
+        <span>Brand : <span style={{color : 'green'}}>{props.elem.brand}</span></span><br/>
         <span>CPU : {props.elem.cpu}</span><br/>
         <span>Ram : {props.elem.ram} GB</span><br/>
         <span>Price : Rs.{props.elem.price}</span><br/>

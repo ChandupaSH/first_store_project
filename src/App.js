@@ -35,7 +35,7 @@ const App = () => {
       <Box  sx={{
         border : '1px black solid',
         width : {xl : '80%' , lg : '75%' , sm : '65%'},
-        height : '100vh'
+        paddingBottom : '10px'
         }}>
       <Box sx={{
         display : 'flex',
