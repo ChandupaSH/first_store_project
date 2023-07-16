@@ -22,7 +22,8 @@ export const Item = (props) => {
         cpu : props.elem.cpu,
         ram : props.elem.ram,
         price : props.elem.price,
-        count : 1
+        count : 1,
+        image : props.elem.image
     }
     ))
     

@@ -47,7 +47,7 @@ export const CartCom = (props) => {
                            backgroundColor : 'rgb(93, 93, 93)',
                            color : 'white'}}>{props.elem.count}</Typography>
           <Typography sx={{height : '20px',marginTop : '1px',}}>{props.elem.brand}..</Typography>
-          <Typography sx={{height : '20px',marginTop : '1px', display: {sm : 'none',md :'block'}}}>{props.elem.cpu}....</Typography>
+
           <Typography sx={{height : '20px',marginTop : '1px',}}>RS.{props.elem.price}</Typography>
           
           
@@ -57,6 +57,7 @@ export const CartCom = (props) => {
 
         </AccordionSummary>
         <AccordionDetails>
+        <img src={props.elem.image} style={{ height: '95px'}}></img><br/>
         <span>Brand : {props.elem.brand}</span><br/>
         <span>CPU : {props.elem.cpu}</span><br/>
         <span>Ram : {props.elem.ram} GB</span><br/>
